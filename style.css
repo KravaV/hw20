@@ -1,0 +1,136 @@
+/* index */
+#container{
+    display: flex;
+    gap: 15px;
+    background-color: rgb(241, 232, 246);
+}
+
+
+#my_photo{
+    width: 100%;
+    max-width: 400px;
+
+}
+#my_photo img{
+    border-color: blueviolet;
+    border-radius: 15%;
+    border-style: double;
+}
+.h3 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: darkblue;
+}
+.paraghraf {
+    font-size: 18px; /* Збільшений розмір тексту */
+    line-height: 1.0; /* Оптимальний міжрядковий інтервал */
+    color: #6b5454; /* Темно-сірий, м'якший для очей колір */
+    text-align: justify; /* Вирівнювання по ширині */
+    margin-bottom: 10px; /* Додаємо трохи простору між абзацами */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#my_info{
+    flex: 1;
+}
+
+.skills {
+  color: rgb(65, 45, 20);
+font-style: italic;
+font-size: 20px; /* Збільшений розмір тексту */
+line-height: 1.0; /* Оптимальний міжрядковий інтервал */
+}
+.general_h {
+    color: rgb(15, 50, 81);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.line{
+    color: black;
+    font-weight: 300;
+    font-size:larger;
+}
+a {
+    padding: 5px 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+
+/* gallery */
+table {
+    width: 60%; 
+    margin: auto; 
+    border-collapse: collapse; 
+    background-color: #f9f9f9; 
+    border: 2px solid #ddd; 
+  }
+  
+.gallery_td {
+    padding: 15px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+  }
+  
+ .img_gallery {
+    width: 250px; 
+    height: 250px;
+    border-radius: 10px; 
+  }
+  
+footer {
+    text-align: center;
+}
+
+.h1_pages{
+    text-align: center; 
+    font-size: 32px; 
+    color: #333; 
+    margin-top: 20px; 
+
+}
+
+/* contacts */
+#contactTable {
+    width: 50%;
+    margin: auto; 
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+ 
+  .tableH {
+    background-color: #6561e2;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  
+  .contactType, .contactDetail {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .contactType h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
+ 
+  .contactDetail a {
+    color: #509fed;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contactDetail a:hover {
+    text-decoration: underline;
+  }
